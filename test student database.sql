@@ -1,6 +1,7 @@
-use `ervin's portfolio`
+use `ervin's portfolio`;
 
-CREATE TABLE Campus_id int(9) not null AUTO_INCREMENT,
+CREATE Table Campus (
+	Campus_id int(9) not null AUTO_INCREMENT,
     Campus_name varchar(30) not null, 
     Campus_address varchar(30) not null,
     Campus_country varchar(30) not null,
